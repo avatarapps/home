@@ -1,0 +1,163 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+font-family: "Montserrat", sans-serif;
+font-weight: 700;
+font-size: 1.5rem;
+line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  padding-bottom: 3%;
+}
+
+p {
+  font-weight: 400;
+}
+
+
+.container-fluid {
+  padding: 3% 12% 8%;
+}
+
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Amatic SC', cursive;
+  font-size: 2.525rem;
+  font-weight: 300;
+}
+
+.nav-item {
+  /* padding: 0 top and bottom, 18 left and right */
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+#title {
+  background-color: #d8b9c3;
+  color: #fff;
+}
+
+/* DOWNLOAD BUTTONS */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+.title-image {
+width: 75%;
+transform: rotate(6deg);
+position: absolute;
+margin-left: 9%;
+
+}
+
+/* Teenused section */
+
+#teenused {
+padding: 7% 12%;
+  background-color: #ffe2e2;
+  color: #8f8f8f;
+  position: relative;
+  z-index: -1;
+}
+
+.teenuse-box {
+  text-align: center;
+  padding: 5%
+}
+
+.teenuse-icon {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.teenuse-icon:hover{
+  color: #827397;
+}
+
+
+/* Portfolio section */
+#portfolio {
+  padding: 7% 12%;
+  text-align: center;
+  background-color: #9DB3C1;
+  color: #fff;
+}
+.portfolio-heading {
+margin-bottom: 30px;
+}
+
+.portfolio-img {
+  width: 60%;
+  margin: 20px;
+}
+
+
+/* Call to Action */
+#cta {
+padding: 7% 12%;
+  background-color: #d8b9c3;
+  text-align: center;
+  color: #fff;
+}
+
+.my-pic {
+  width: 40%;
+margin-top: 3%;
+}
+
+.contact-button{
+    margin: 5% 3% 5% 0;
+}
+
+
+.footer {
+background-color: #9DB3C1;
+  padding: 1% 12%;
+  text-align: center;
+  font-weight: 200;
+  font-size: 0.8rem;
+  color: #fff;
+
+}
+
+@media (max-width: 1000px) {
+  .title-image {
+    position: static;
+    z-index: 0;
+    transform: rotate(0);
+  }
+
+#title {
+text-align: center;
+}
+
+  #teenused {
+    position: static;
+    z-index: 0;
+  }
+}
